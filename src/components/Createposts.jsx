@@ -68,6 +68,7 @@ const Createposts = () => {
 
     const makePost = () => {
       dispatch(updatePost(updatedPost))
+      setShowModal(false)
     }
 
 
