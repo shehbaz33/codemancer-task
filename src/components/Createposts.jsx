@@ -45,7 +45,7 @@ const Createposts = () => {
     }
 
     console.log(data)
-    useEffect(() => {
+    React.useEffect(() => {
        getGif()
     },[]);
 
